@@ -1,4 +1,4 @@
-<?php
+<?php ?>
 
 <head>
   <meta charset="utf-8">
