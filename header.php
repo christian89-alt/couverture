@@ -1,20 +1,23 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Couverture, Bardage , Etancheité - Christian Service </title>
-  <meta name="description" content="">
+  <meta name="description" content="entretien de vos toitures sur l'ensemble du territoire rémois et français">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon_1.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,92 +36,96 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  <body class="services-page">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Christian DUBOC Services </h1> <span>.</span>
-      </a>
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Accueil</a></li>
-          <li><a href="moncv.html">Mon CV </a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+        <a href="index.html" class="logo d-flex align-items-center">
 
-    </div>
-  </header>
+          <h1 class="sitename">Christian Duboc Services </h1> <span>.</span>
+        </a>
 
-  <main class="main">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="moncv.html">Mon CV </a></li>
+            <li><a href="posepanneaux.html">Energie solaire</a></li>
+            <li><a href="etancheite.html">Etancheité</a></li>
+            <li><a href="auditenergetique.html">Rénovation Electrique</a></li>
+            <li><a href="couverture.html">Couverture</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+      </div>
+    </header>
 
-      <div class="info d-flex align-items-center">
-        <div class="container">
-          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-6 text-center">
-              <h2>Christian Services </h2>
-              <p>Que vous soyez professionnel ou particulier je vous propose mes services. J'interviens dans le nettoyage de vos toits, l'entretien de votre résidence, ou le renforcement de vos équipes.</p>
-              <a href="#get-started" class="btn-get-started">Contact</a>
+    <main class="main">
+
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+
+        <div class="info d-flex align-items-center">
+          <div class="container">
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+              <div class="col-lg-6 text-center">
+                <h2>Christian Duboc Services </h2>
+                <p>Que vous soyez professionnel ou particulier je vous propose mes services. J'interviens dans sur
+                  l'ensemble de vos travaux liées aux économie d'énergie ou à l'enveloppe de votre bati. le
+                  Qu'il s'agisse de locaux industriel ou résidentiels, je vous propose un ensemble de solutions.</p>
+                <a href="contact.html" class="btn-get-started">Contact</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+          </div>
+
+          <div class="carousel-item active">
+            <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-4.jpg" alt="">
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-5.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-6.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-7.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-8.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-9.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/hero-carousel/hero-carousel-10.jpg" alt="">
+          </div>
+
+          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+          </a>
+
+          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+          </a>
+
         </div>
 
-        <div class="carousel-item active">
-          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
-        </div>
-
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
-        </div>
-
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-4.jpg" alt="">
-        </div>
-
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-5.jpg" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-6.jpg" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-7.jpg" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-8.jpg" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-9.jpg" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-10.jpg" alt="">
-        </div>
-
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    ?>
+      </section><!-- /Hero Section -->
