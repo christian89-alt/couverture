@@ -1,500 +1,279 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Couverture, Bardage , Etancheité - Christian Service </title>
-  <meta name="description" content="entretien de vos toitures sur l'ensemble du territoire rémois et français">
-  <meta name="keywords" content="">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon_1.ico" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+<?php require 'header.php'; ?>
 
 
-</head>
+<!-- Get Started Section -->
+<section id="get-started" class="get-started section">
 
+  <div class="container">
 
-<body class="index-page">
+    <div class="row justify-content-between gy-4">
 
-  <body class="services-page">
+      <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="content">
+          <h3>Qui suis-je ? </h3>
+          <p>Ancien cadre dirigeant j'ai choisi de me reconvertir dans le bâtiment.
+          </p>
+          <p>Cette reconversion m'a amené à me rapprocher des métiers liés à la couverture au bardage et à
+            l"étancheité. Suite à mon expérience J'ai souhaité valider mon expérience professionnelle acquise et
+            présenté un BP étancheité du bâtiment et des travaux publics.</p>
+          <p>La suite de mon parcours était logiquement de proposer mes services aux entrepreneurs ou à des
+            particuliers en développant ma propre structure.</p>
+        </div>
+      </div>
 
-    <header id="header" class="header d-flex align-items-center fixed-top">
-      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
+        <form action="forms/quote.php" method="post" class="php-email-form">
+          <h3>Obtenez un devis </h3>
+          <p>N'hésitez pas à me contacter pour un devis gratuit et sans engagement, je vous répondrais aussi vite
+            que possible.</p>
+          <div class="row gy-3">
 
-        <a href="index.html" class="logo d-flex align-items-center">
+            <div class="col-12">
+              <input type="text" name="name" class="form-control" placeholder="Nom" required="">
+            </div>
 
-          <h1 class="sitename">Christian Duboc Services </h1> <span>.</span>
-        </a>
+            <div class="col-12 ">
+              <input type="email" class="form-control" name="email" placeholder="Email" required="">
+            </div>
 
-        <nav id="navmenu" class="navmenu">
-          <ul>
-             <li><a href="index.html" class="active">Accueil</a></li>
-            <li><a href="moncv.html">Mon CV </a></li>
-            <li><a href="posepanneaux.html">Energie solaire</a></li>
-            <li><a href="etancheite.html">Etancheité</a></li>
-            <li><a href="auditenergetique.html">Rénovation Energétique</a></li>
-            <li><a href="couverture.html">Couverture</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
+            <div class="col-12">
+              <input type="text" class="form-control" name="Téléphone" placeholder="Téléphone" required="">
+            </div>
+
+            <div class="col-12">
+              <textarea class="form-control" name="Votre message" rows="6" placeholder="Votre message"
+                required=""></textarea>
+            </div>
+
+            <div class="col-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Votre demande de devis nous est bien parvenu, nous prendrons contact avec
+                vous dès que possible. Merci!</div>
+
+              <button type="submit">Obtenir un devis</button>
+            </div>
+
+          </div>
+        </form>
+      </div><!-- End Quote Form -->
 
     </div>
-  </header>
 
-  <main class="main">
+  </div>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+</section><!-- /Get Started Section -->
 
-      <div class="info d-flex align-items-center">
-        <div class="container">
-          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-6 text-center">
-              <h2>Christian Duboc Services </h2>
-              <p>Que vous soyez professionnel ou particulier je vous propose mes services. J'interviens dans sur l'ensemble de vos travaux liés aux économies d'énergie ou à l'enveloppe de votre bati.
-              Qu'il s'agisse de locaux industriels ou résidentiels, je vous propose un ensemble de solutions.</p>
-              <a href="contact.html" class="btn-get-started">Contact</a>
+<!-- Constructions Section -->
+<section id="constructions" class="constructions section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Mon offre de service</h2>
+    <p>Avoir des chantiers aujourd'hui ne suffit pas, il est important de respecter les délais qui nous sont impartis, ne pas pouvoir respecter ses délais peut devenir un problème. Je vous
+      propose donc de renforcer vos équipes directement sur chantier. </p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-item">
+          <div class="row">
+            <div class="col-xl-5">
+              <div class="card-bg"><img src="assets/img/mes services/couvreur.jpg" alt=""></div>
+            </div>
+            <div class="col-xl-7 d-flex align-items-center">
+              <div class="card-body">
+                <h4 class="card-title">Couverture</h4>
+                <p>Je vous propose de venir renforcer vos équipes de couvreur en évitant les difficultés d'un
+                  recrutement souvent complexe et chronophage, mon offre vous permettra d'optimiser votre besoin de
+                  flexibilité entrepreunarial en optimisant vos coûts en ressources humaines.J'assiste vos équipes
+                  dans la pose de toutes sortes d'éléments de couvertures, tôle,tuiles, ardoises,chêneaux,...</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </div><!-- End Card Item -->
 
-      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
-        </div>
-
-        <div class="carousel-item active">
-          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
-        </div>
-
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
-        </div>
-
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-4.jpg" alt="">
-        </div>
-
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-5.jpg" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-6.jpg" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-7.jpg" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-8.jpg" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-9.jpg" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/hero-carousel/hero-carousel-10.jpg" alt="">
-        </div>
-
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-      </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- Get Started Section -->
-    <section id="get-started" class="get-started section">
-
-      <div class="container">
-
-        <div class="row justify-content-between gy-4">
-
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <div class="content">
-              <h3>Qui suis-je ? </h3>
-              <p>Ancien cadre dirigeant j'ai choisi de me reconvertir dans le bâtiment.
-              </p>
-              <p>Cette reconversion m'a amené à me rapprocher des métiers liés à la couverture au bardage et à
-                l"étancheité. Suite à mon expérience J'ai souhaité valider mon expérience professionnelle acquise et
-                présenté un BP étancheité du bâtiment et des travaux publics.</p>
-              <p>La suite de mon parcours était logiquement de proposer mes services aux entrepreneurs ou à des
-                particuliers en développant ma propre structure.</p>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-item">
+          <div class="row">
+            <div class="col-xl-5">
+              <div class="card-bg"><img src="assets/img/mes services/constructions-2.jpg" alt=""></div>
+            </div>
+            <div class="col-xl-7 d-flex align-items-center">
+              <div class="card-body">
+                <h4 class="card-title">Rénovation énergétique</h4>
+                <p>Dans le cadre de vos chantiers je vous propose de venir renforcer vos équipes en évitant les
+                  difficultés d'un recrutement souvent complexe.Faire appel à mes services s'est vous permettre
+                  d'optimiser votre besoin de flexibilité en minimisant vos coûts de main d'oeuvre. Je m'intègre
+                  dans vos équipes. </p>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-            <form action="forms/quote.php" method="post" class="php-email-form">
-              <h3>Obtenez un devis </h3>
-              <p>N'hésitez pas à me contacter pour un devis gratuit et sans engagement, je vous répondrais aussi vite
-                que possible.</p>
-              <div class="row gy-3">
-
-                <div class="col-12">
-                  <input type="text" name="name" class="form-control" placeholder="Nom" required="">
-                </div>
-
-                <div class="col-12 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                </div>
-
-                <div class="col-12">
-                  <input type="text" class="form-control" name="Téléphone" placeholder="Téléphone" required="">
-                </div>
-
-                <div class="col-12">
-                  <textarea class="form-control" name="Votre message" rows="6" placeholder="Votre message"
-                    required=""></textarea>
-                </div>
-
-                <div class="col-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Votre demande de devis nous est bien parvenu, nous prendrons contact avec
-                    vous dès que possible. Merci!</div>
-
-                  <button type="submit">Obtenir un devis</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Quote Form -->
-
         </div>
+      </div><!-- End Card Item -->
 
-      </div>
-
-    </section><!-- /Get Started Section -->
-
-    <!-- Constructions Section -->
-    <section id="constructions" class="constructions section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Mon offre de service</h2>
-        <p>Avoir des chantiers aujourd'hui ne suffit pas, il est important de respecter les délais qui nous sont impartis,  ne pas pouvoir respecter ses délais peut devenir un problème. Je vous
-          propose donc de renforcer vos équipes directement sur chantier. </p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/mes services/couvreur.jpg" alt=""></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Couverture</h4>
-                    <p>Je vous propose de venir renforcer vos équipes de couvreur en évitant les difficultés d'un
-                      recrutement souvent complexe et chronophage, mon offre vous permettra d'optimiser votre besoin de
-                      flexibilité entrepreunarial en optimisant vos coûts en ressources humaines.J'assiste vos équipes
-                      dans la pose de toutes sortes d'éléments de couvertures, tôle,tuiles, ardoises,chêneaux,...</p>
-                  </div>
-                </div>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="card-item">
+          <div class="row">
+            <div class="col-xl-5">
+              <div class="card-bg"><img src="assets/img/mes services/construction-7.jpg"
+                  alt="transition énéergétiques, pose de panneaux solaires,énergie renouvelable"></div>
+            </div>
+            <div class="col-xl-7 d-flex align-items-center">
+              <div class="card-body">
+                <h4 class="card-title">Pose de panneaux solaires</h4>
+                <p>Alors que le climat change, la pose de panneaux solaires est l'un des moyens de limiter ces
+                  changements.Basé sur une expérience de plus ou moins deux ans en tant que poseur de panneaux
+                  solaire, j'accompagne vos équipes ou j'interviens en tant que sous traitant.</p>
               </div>
             </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/mes services/constructions-2.jpg" alt=""></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Rénovation énergétique</h4>
-                    <p>Dans le cadre de vos chantiers je vous propose de venir renforcer vos équipes en évitant les
-                      difficultés d'un recrutement souvent complexe.Faire appel à mes services s'est vous permettre
-                      d'optimiser votre besoin de flexibilité en minimisant vos coûts de main d'oeuvre. Je m'intègre
-                      dans vos équipes. </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/mes services/construction-7.jpg"
-                      alt="transition énéergétiques, pose de panneaux solaires,énergie renouvelable"></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Pose de panneaux solaires</h4>
-                    <p>Alors que le climat change, la pose de panneaux solaires est l'un des moyens de limiter ces
-                      changements.Basé sur une expérience de plus ou moins deux ans en tant que poseur de panneaux
-                      solaire, j'accompagne vos équipes ou j'interviens en tant que sous traitant.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="card-item">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="card-bg"><img src="assets/img/mes services/etancheité.jpg" alt=""></div>
-                </div>
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Etancheité</h4>
-                    <p>Impliqué dans une démarche responsable envers notre environnement je prends en charge l'ensemble
-                      du nettoyage de vos chantiers pour optimiser la production de vos salariés.En déléguant le
-                      nettoyage de vos chantiers à une entreprise autre, vous profitez de cela pour optimiser votre
-                      démarche RSE. </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Card Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Constructions Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Pour completer mon offre. </h2>
-        <p>Je vous propose de vous accompagner dans l'entretiens de vos locaux qu'ils soients, d'habitations,
-          commerciaux ou industriels.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-mountain-city"></i>
-              </div>
-              <h3>Nettoyage de tout types de toitures</h3>
-              <p>Entretenir sont toit est le premier geste qui assurera la pérénité de votre patrimoine immobilier. Je
-                vous recommande de faire ce nettoyage une fois par an et cela avant l'hiver.</p>
-              <a href="contact.html" class="readmore stretched-link">Demande de devis <i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-              </div>
-              <h3>Pose de fenêtre de toits </h3>
-              <p>Comme tout éléments de votre toitures vos velux peuvent se déteriorer.Je vous propose donc de procéder
-                à leurs changements pour que votre maison soit parfaitement étanche.</p>
-              <a href="contact.html" class="readmore stretched-link">Demande de devis <i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-compass-drafting"></i>
-              </div>
-              <h3>Audit énergétique</h3>
-              <p>Vos facture d'électricités vous semble trop élevé ? Je vous propose mes services pour la réalisation d'un audit énergétique qui vous permettra de mettre en place une stratégie d'optimisation de votre bâtiment. N'héitez pas à me contacter pour mettre en place la première étape, l'audit énergétique. </p>
-              <a href="contact.html" class="readmore stretched-link">Demande de devis <i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-
-        </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Alt Services Section -->
-    <section id="alt-services" class="alt-services section">
-
-      <div class="container">
-
-        <div class="row justify-content-around gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img
-              src="assets/img/alt-services.jpg" alt=""></div>
-
-          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Mes valeurs</h3>
-            <p> J'ai créer mon entreprise en souhaitant qu'elle soit le reflet de mes propres valeurs.</p>
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-easel flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Réactivité</a></h4>
-                <p> Parce que les contrats que nous signons dans nos secteurs </p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-patch-check flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Professionnalisme</a></h4>
-                <p>Consencieux et professionnel je mets un point d'honneur à toujours mettre tout en ouvre pour que la
-                  relation client soit optimum.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-brightness-high flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Proximité</a></h4>
-                <p>Comme le médecin de famille était généralement proche de ses patients, je m'efforce d'avoir toujoirs
-                  la même proximité avec l'ensemble des artisans et particuliers pour lesquels je suis amené à
-                  travailler.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-              <i class="bi bi-brightness-high flex-shrink-0"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Respectueux de l'environnement</a></h4>
-                <p>Le changement climatique est aujourd'hui une réalité et il impact fortement sur nos activités, c'est
-                  la raison pour laquelle dans ma gestion quotidienne ou dans la gestion de mes chantiers la notion de
-                  respect de l'environnement est pour moi très importante et fait partie intégrante de mes modes de
-                  fonctionnements.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
           </div>
         </div>
+      </div><!-- End Card Item -->
 
-      </div>
-
-    </section><!-- /Alt Services Section -->
-
-
-
-    <footer id="footer" class="footer dark-background">
-
-      <div class="container footer-top">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">CHRISTIAN DUBOC SERVICES</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <p>7 A rue Folle Peine </p>
-              <p>51 100 Reims</p>
-              <p class="mt-3"><strong>Téléphone:</strong> <span>+33 7 67 53 36 25</span></p>
-              <p><strong>Email:</strong> <span>c.duboc43@gmail.com</span></p>
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="card-item">
+          <div class="row">
+            <div class="col-xl-5">
+              <div class="card-bg"><img src="assets/img/mes services/etancheité.jpg" alt=""></div>
             </div>
-            <div class="social-links d-flex mt-4">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+            <div class="col-xl-7 d-flex align-items-center">
+              <div class="card-body">
+                <h4 class="card-title">Etancheité</h4>
+                <p>Impliqué dans une démarche responsable envers notre environnement je prends en charge l'ensemble
+                  du nettoyage de vos chantiers pour optimiser la production de vos salariés.En déléguant le
+                  nettoyage de vos chantiers à une entreprise autre, vous profitez de cela pour optimiser votre
+                  démarche RSE. </p>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Liens utiles</h4>
-            <ul>
-              <li><a href="index.html" class="active">Accueil</a></li>
-              <li><a href="moncv.html">Mon CV </a></li>
-              <li><a href="posepanneaux.html">Energie solaire</a></li>
-              <li><a href="etancheite.html">Etancheité</a></li>
-              <li><a href="auditenergetique.html">Rénovation Energétique</a></li>
-              <li><a href="couverture.html">Couverture</a></li>
-              <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Mes services</h4>
-            <ul>
-              <li><a href="servicepro.html">Pour les professionnels</a></li>
-              
-
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Quelques liens utiles</h4>
-            <ul>
-              <li><a href="#">MaPrime Renove</a></li>
-              <li><a href="#">Anah</a></li>
-              <li><a href="termetcondition.html">Termes et conditions</a></li>
-              <li><a href="policyprivacy.html">Respect de la vie privée </a></li>
-
-            </ul>
-          </div>
-
         </div>
+      </div><!-- End Card Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Constructions Section -->
+
+<!-- Services Section -->
+<section id="services" class="services section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Pour completer mon offre. </h2>
+    <p>Je vous propose de vous accompagner dans l'entretiens de vos locaux qu'ils soients, d'habitations,
+      commerciaux ou industriels.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item  position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-mountain-city"></i>
+          </div>
+          <h3>Nettoyage de tout types de toitures</h3>
+          <p>Entretenir sont toit est le premier geste qui assurera la pérénité de votre patrimoine immobilier. Je
+            vous recommande de faire ce nettoyage une fois par an et cela avant l'hiver.</p>
+          <a href="contact.html" class="readmore stretched-link">Demande de devis <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+          </div>
+          <h3>Pose de fenêtre de toits </h3>
+          <p>Comme tout éléments de votre toitures vos velux peuvent se déteriorer.Je vous propose donc de procéder
+            à leurs changements pour que votre maison soit parfaitement étanche.</p>
+          <a href="contact.html" class="readmore stretched-link">Demande de devis <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-compass-drafting"></i>
+          </div>
+          <h3>Audit énergétique</h3>
+          <p>Vos facture d'électricités vous semble trop élevé ? Je vous propose mes services pour la réalisation d'un audit énergétique qui vous permettra de mettre en place une stratégie d'optimisation de votre bâtiment. N'héitez pas à me contacter pour mettre en place la première étape, l'audit énergétique. </p>
+          <a href="contact.html" class="readmore stretched-link">Demande de devis <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
+
+
+    </div>
+
+</section><!-- /Services Section -->
+
+<!-- Alt Services Section -->
+<section id="alt-services" class="alt-services section">
+
+  <div class="container">
+
+    <div class="row justify-content-around gy-4">
+      <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img
+          src="assets/img/alt-services.jpg" alt=""></div>
+
+      <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <h3>Mes valeurs</h3>
+        <p> J'ai créer mon entreprise en souhaitant qu'elle soit le reflet de mes propres valeurs.</p>
+
+        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-easel flex-shrink-0"></i>
+          <div>
+            <h4><a href="" class="stretched-link">Réactivité</a></h4>
+            <p> Parce que les contrats que nous signons dans nos secteurs </p>
+          </div>
+        </div><!-- End Icon Box -->
+
+        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-patch-check flex-shrink-0"></i>
+          <div>
+            <h4><a href="" class="stretched-link">Professionnalisme</a></h4>
+            <p>Consencieux et professionnel je mets un point d'honneur à toujours mettre tout en ouvre pour que la
+              relation client soit optimum.</p>
+          </div>
+        </div><!-- End Icon Box -->
+
+        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+          <i class="bi bi-brightness-high flex-shrink-0"></i>
+          <div>
+            <h4><a href="" class="stretched-link">Proximité</a></h4>
+            <p>Comme le médecin de famille était généralement proche de ses patients, je m'efforce d'avoir toujoirs
+              la même proximité avec l'ensemble des artisans et particuliers pour lesquels je suis amené à
+              travailler.</p>
+          </div>
+        </div><!-- End Icon Box -->
+
+        <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
+          <i class="bi bi-brightness-high flex-shrink-0"></i>
+          <div>
+            <h4><a href="" class="stretched-link">Respectueux de l'environnement</a></h4>
+            <p>Le changement climatique est aujourd'hui une réalité et il impact fortement sur nos activités, c'est
+              la raison pour laquelle dans ma gestion quotidienne ou dans la gestion de mes chantiers la notion de
+              respect de l'environnement est pour moi très importante et fait partie intégrante de mes modes de
+              fonctionnements.</p>
+          </div>
+        </div><!-- End Icon Box -->
 
       </div>
-      </div>
+    </div>
 
-      <div class="container copyright text-center mt-4">
-        <p>© <span>Tous droits réservés à </span> <strong class="px-1 sitename">Christian Duboc Services</strong>
-          <span>All Rights Reserved</span>
-        </p>
+  </div>
 
-      </div>
+</section><!-- /Alt Services Section -->
 
-    </footer>
 
-    <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
-
-    <!-- Preloader -->
-    <div id="preloader"></div>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+<?php require 'footer.php'; ?>
