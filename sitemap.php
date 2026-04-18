@@ -48,13 +48,13 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-             <li><a href="index.html" class="active">Accueil</a></li>
-            <li><a href="moncv.html">Mon CV </a></li>
-            <li><a href="posepanneaux.html">Energie solaire</a></li>
-            <li><a href="etancheite.html">Etancheité</a></li>
-            <li><a href="auditenergetique.html">Rénovation Energétique</a></li>
-            <li><a href="couverture.html">Couverture</a></li>
-            <li><a href="contact.html">Contact</a></li>
+             <li><a href="index.php" class="active">Accueil</a></li>
+            <li><a href="moncv.php">Mon CV </a></li>
+            <li><a href="posepanneaux.php">Energie solaire</a></li>
+            <li><a href="etancheite.php">Etancheité</a></li>
+            <li><a href="auditenergetique.php">Rénovation Energétique</a></li>
+            <li><a href="couverture.php">Couverture</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -140,14 +140,14 @@
             <div class="content">
               <h3>Notre Sit map </h3>
               <ul>
-                 <li><a href="index.html" class="active">Accueil</a></li>
-                <li><a href="moncv.html">Mon CV </a></li>
-                <li><a href="posepanneaux.html">Energie solaire</a></li>
-                <li><a href="etancheite.html">Etancheité</a></li>
-                <li><a href="auditenergetique.html">Rénovation Energétique</a></li>
-                <li><a href="couverture.html">Couverture</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="servicespro.html">Professionnels</a></li>
+                 <li><a href="index.php" class="active">Accueil</a></li>
+                <li><a href="moncv.php">Mon CV </a></li>
+                <li><a href="posepanneaux.php">Energie solaire</a></li>
+                <li><a href="etancheite.php">Etancheité</a></li>
+                <li><a href="auditenergetique.php">Rénovation Energétique</a></li>
+                <li><a href="couverture.php">Couverture</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="servicespro.php">Professionnels</a></li>
                 
 
 
