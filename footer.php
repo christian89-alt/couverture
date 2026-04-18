@@ -23,12 +23,12 @@
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Liens utiles</h4>
               <ul>
-                <li><a href="index.html" class="active">Accueil</a></li>
-                <li><a href="moncv.html">Mon CV </a></li>
-                <li><a href="posepanneaux.html">Energie solaire</a></li>
-                <li><a href="etancheite.html">Etancheité</a></li>
-                <li><a href="auditenergetique.html">Rénovation Electrique</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php" class="active">Accueil</a></li>
+                <li><a href="moncv.php">Mon CV </a></li>
+                <li><a href="posepanneaux.php">Energie solaire</a></li>
+                <li><a href="etancheite.php">Etancheité</a></li>
+                <li><a href="auditenergetique.php">Rénovation Electrique</a></li>
+                <li><a href="contact.php">Contact</a></li>
 
               </ul>
             </div>
@@ -36,7 +36,7 @@
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Mes services</h4>
               <ul>
-                <li><a href="servicepro.html">Pour les professionnels</a></li>
+                <li><a href="servicepro.php">Pour les professionnels</a></li>
                 
 
               </ul>
