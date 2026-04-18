@@ -58,4 +58,4 @@
 </section><!-- /Services Section -->
 
 
-<?php require 'header.php'; ?>
+<?php require 'footer.php'; ?>
