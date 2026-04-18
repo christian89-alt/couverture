@@ -1,186 +1,95 @@
 <?php require 'header.php'; ?>
 
 
-    <main class="main">
+<main class="main">
 
 
 
-      <!-- Contact Section -->
-      <section id="contact" class="contact section">
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="row gy-4">
+      <div class="row gy-4">
 
-            <div class="col-lg-6">
-              <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-                data-aos-delay="200">
-                <i class="bi bi-geo-alt"></i>
-                <h3>Adresse</h3>
-                <p>7 a, rue Folle Peine, 51 100 Reims</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="col-lg-3 col-md-6">
-              <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-                data-aos-delay="300">
-                <i class="bi bi-telephone"></i>
-                <h3>Me joindre par téléphone </h3>
-                <p>+33 7 67 53 36 25</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="col-lg-3 col-md-6">
-              <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-                data-aos-delay="400">
-                <i class="bi bi-envelope"></i>
-                <h3>Me joindre par mail </h3>
-                <p>c.duboc43@gmail.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
+        <div class="col-lg-6">
+          <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+            data-aos-delay="200">
+            <i class="bi bi-geo-alt"></i>
+            <h3>Adresse</h3>
+            <p>7 a, rue Folle Peine, 51 100 Reims</p>
           </div>
+        </div><!-- End Info Item -->
 
-          <div class="row gy-4 mt-1">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.597371148705!2d4.030328275854139!3d49.2461223733433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e9745044f1deaf%3A0xab2f60326f41c932!2s7A%20Rue%20Folle-Peine%2C%2051100%20Reims%2C%20France!5e0!3m2!1sfr!2ses!4v1771421277969!5m2!1sfr!2ses"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div><!-- End Google Maps -->
-
-            <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-                data-aos-delay="400">
-                <div class="row gy-4">
-
-                  <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Votre nom" required="">
-                  </div>
-
-                  <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Votre email" required="">
-                  </div>
-
-                  <div class="col-md-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Sujet de votre demande"
-                      required="">
-                  </div>
-
-                  <div class="col-md-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Votre message"
-                      required=""></textarea>
-                  </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Votre message à bien été envoyé!</div>
-
-                    <button type="submit">Envoie du message</button>
-                  </div>
-
-                </div>
-              </form>
-            </div><!-- End Contact Form -->
-
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+            data-aos-delay="300">
+            <i class="bi bi-telephone"></i>
+            <h3>Me joindre par téléphone </h3>
+            <p>+33 7 67 53 36 25</p>
           </div>
+        </div><!-- End Info Item -->
 
-        </div>
-
-      </section><!-- /Contact Section -->
-
-    </main>
-
-          <footer id="footer" class="footer dark-background">
-
-        <div class="container footer-top">
-          <div class="row gy-4">
-            <div class="col-lg-4 col-md-6 footer-about">
-              <a href="index.html" class="logo d-flex align-items-center">
-                <span class="sitename">C & D Services</span>
-              </a>
-              <div class="footer-contact pt-3">
-                <p>7 A rue Folle Peine </p>
-                <p>51 100 Reims</p>
-                <p class="mt-3"><strong>Téléphone:</strong> <span>+33 7 67 53 36 25</span></p>
-                <p><strong>Email:</strong> <span>c.duboc43@gmail.com</span></p>
-              </div>
-              <div class="social-links d-flex mt-4">
-                <a href=""><i class="bi bi-twitter-x"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Liens utiles</h4>
-              <ul>
-                <li><a href="index.html" class="active">Accueil</a></li>
-                <li><a href="moncv.html">Mon CV </a></li>
-                <li><a href="posepanneaux.html">Energie solaire</a></li>
-                <li><a href="etancheite.html">Etancheité</a></li>
-                <li><a href="auditenergetique.html">Rénovation Energétique</a></li>
-                <li><a href="couverture.html">Couverture</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
-              </ul>
-            </div>
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Mes services</h4>
-              <ul>
-                <li><a href="servicepro.html">Pour les professionnels</a></li>
-                
-
-              </ul>
-            </div>
-
-            <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Quelques liens utiles</h4>
-              <ul>
-                <li><a href="#">MaPrime Rénove</a></li>
-                <li><a href="#">Anah</a></li>
-                <li><a href="termetcondition.html">Termes et conditions</a></li>
-                <li><a href="policyprivacy.html">Respect de la vie privée </a></li>
-              
-              </ul>
-            </div>
-
+        <div class="col-lg-3 col-md-6">
+          <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+            data-aos-delay="400">
+            <i class="bi bi-envelope"></i>
+            <h3>Me joindre par mail </h3>
+            <p>c.duboc43@gmail.com</p>
           </div>
+        </div><!-- End Info Item -->
 
-        </div>
-        </div>
+      </div>
 
-        <div class="container copyright text-center mt-4">
-          <p>© <span>Tous droits réservés à </span> <strong class="px-1 sitename">Christian Duboc Services</strong>
-            <span>All Rights Reserved</span></p>
+      <div class="row gy-4 mt-1">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.597371148705!2d4.030328275854139!3d49.2461223733433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e9745044f1deaf%3A0xab2f60326f41c932!2s7A%20Rue%20Folle-Peine%2C%2051100%20Reims%2C%20France!5e0!3m2!1sfr!2ses!4v1771421277969!5m2!1sfr!2ses"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><!-- End Google Maps -->
 
-        </div>
+        <div class="col-lg-6">
+          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+            data-aos-delay="400">
+            <div class="row gy-4">
 
-      </footer>
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Votre nom" required="">
+              </div>
 
-    <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
+              <div class="col-md-6 ">
+                <input type="email" class="form-control" name="email" placeholder="Votre email" required="">
+              </div>
 
-    <!-- Preloader -->
-    <div id="preloader"></div>
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Sujet de votre demande"
+                  required="">
+              </div>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Votre message"
+                  required=""></textarea>
+              </div>
 
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Votre message à bien été envoyé!</div>
 
-</body>
+                <button type="submit">Envoie du message</button>
+              </div>
 
-</html>
+            </div>
+          </form>
+        </div><!-- End Contact Form -->
+
+      </div>
+
+    </div>
+
+  </section><!-- /Contact Section -->
+
+</main>
+
+<?php require 'header.php'; ?>
