@@ -1,154 +1,61 @@
 <?php require 'header.php'; ?>
 
 
-    <!-- Services Section -->
-    <section id="services" class="services section light-background">
+<!-- Services Section -->
+<section id="services" class="services section light-background">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Mon offre de service  </h2>
-        <p>Je vous propose de vous accompagner dans l'entretien de vos toitures, en les rénovant si cela est nécessaire. Je pose ou je change vos velux pour que vos pièces soient baignées de lumières.</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Mon offre de service </h2>
+    <p>Je vous propose de vous accompagner dans l'entretien de vos toitures, en les rénovant si cela est nécessaire. Je pose ou je change vos velux pour que vos pièces soient baignées de lumières.</p>
+  </div><!-- End Section Title -->
 
-      <div class="container">
+  <div class="container">
 
-        <div class="row gy-4">
+    <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-mountain-city"></i>
-              </div>
-              <h3>Nettoyage de tout types de toitures</h3>
-              <p>Entretenir sont toit est le premier geste qui assurera la pérénité de votre patrimoine immobilier. Je
-                vous recommande de faire ce nettoyage une fois par an et cela avant l'hiver.</p>
-              <a href="contact.html" class="readmore stretched-link">Demande de devis <i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-              </div>
-              <h3>Pose de fenêtre de toits </h3>
-              <p>Comme tout éléments de votre toitures vos velux peuvent se déteriorer.Je vous propose donc de procéder
-                à leurs changements pour que votre maison soit parfaitement étanche.</p>
-              <a href="contact.html" class="readmore stretched-link">Demande de devis <i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-compass-drafting"></i>
-              </div>
-              <h3>Renovation de votre toiture </h3>
-              <p>Je vous propose mes services pour rénover vos toitures.   </p>
-              <a href="contact.html" class="readmore stretched-link">Demande de devis <i
-                  class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
-
-
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item  position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-mountain-city"></i>
+          </div>
+          <h3>Nettoyage de tout types de toitures</h3>
+          <p>Entretenir sont toit est le premier geste qui assurera la pérénité de votre patrimoine immobilier. Je
+            vous recommande de faire ce nettoyage une fois par an et cela avant l'hiver.</p>
+          <a href="contact.html" class="readmore stretched-link">Demande de devis <i
+              class="bi bi-arrow-right"></i></a>
         </div>
+      </div><!-- End Service Item -->
 
-    </section><!-- /Services Section -->
-
-
-
-    <footer id="footer" class="footer dark-background">
-
-      <div class="container footer-top">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">CHRISTIAN DUBOC SERVICES</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <p>7 A rue Folle Peine </p>
-              <p>51 100 Reims</p>
-              <p class="mt-3"><strong>Téléphone:</strong> <span>+33 7 67 53 36 25</span></p>
-              <p><strong>Email:</strong> <span>c.duboc43@gmail.com</span></p>
-            </div>
-            <div class="social-links d-flex mt-4">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
           </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Liens utiles</h4>
-            <ul>
-              <li><a href="index.html" class="active">Accueil</a></li>
-              <li><a href="moncv.html">Mon CV </a></li>
-              <li><a href="posepanneaux.html">Energie solaire</a></li>
-              <li><a href="etancheite.html">Etancheité</a></li>
-              <li><a href="auditenergetique.html">Rénovation Energétique</a></li>
-              <li><a href="couverture.html">Couverture</a></li>
-              <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Mes services</h4>
-            <ul>
-              <li><a href="servicepro.html">Pour les professionnels</a></li>
-              
-
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Quelques liens utiles</h4>
-            <ul>
-              <li><a href="#">MaPrime Renove</a></li>
-              <li><a href="#">Anah</a></li>
-              <li><a href="termetcondition.html">Termes et conditions</a></li>
-              <li><a href="policyprivacy.html">Respect de la vie privée </a></li>
-
-            </ul>
-          </div>
-
+          <h3>Pose de fenêtre de toits </h3>
+          <p>Comme tout éléments de votre toitures vos velux peuvent se déteriorer.Je vous propose donc de procéder
+            à leurs changements pour que votre maison soit parfaitement étanche.</p>
+          <a href="contact.html" class="readmore stretched-link">Demande de devis <i
+              class="bi bi-arrow-right"></i></a>
         </div>
+      </div><!-- End Service Item -->
 
-      </div>
-      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="fa-solid fa-compass-drafting"></i>
+          </div>
+          <h3>Renovation de votre toiture </h3>
+          <p>Je vous propose mes services pour rénover vos toitures. </p>
+          <a href="contact.html" class="readmore stretched-link">Demande de devis <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+      </div><!-- End Service Item -->
 
-      <div class="container copyright text-center mt-4">
-        <p>© <span>Tous droits réservés à </span> <strong class="px-1 sitename">Christian Duboc Services</strong>
-          <span>All Rights Reserved</span>
-        </p>
 
-      </div>
+    </div>
 
-    </footer>
+</section><!-- /Services Section -->
 
-    <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Preloader -->
-    <div id="preloader"></div>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+<?php require 'header.php'; ?>
