@@ -47,8 +47,8 @@
               <ul>
                 <li><a href="#">MaPrime Rénove</a></li>
                 <li><a href="#">Anah</a></li>
-                <li><a href="termetcondition.html">Termes et conditions</a></li>
-                <li><a href="policyprivacy.html">Respect de la vie privée </a></li>
+                <li><a href="termetcondition.php">Termes et conditions</a></li>
+                <li><a href="policyprivacy.phpl">Respect de la vie privée </a></li>
 
               </ul>
             </div>
