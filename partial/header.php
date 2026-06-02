@@ -19,11 +19,10 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 
-     <!-- RJPD -->
-  
-  <link
- href="https://consent.cookiebot.com/uc.js?cbid=00000000-0000-0000-0000-000000000000
-" >
+  <!-- RJPD -->
+
+  <link href="https://consent.cookiebot.com/uc.js?cbid=00000000-0000-0000-0000-000000000000
+">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,6 +34,10 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <!--RJPD -->
+  <script id="Cookiebot" data-culture="EN" src="https://consent.cookiebot.com/uc.js"
+    data-cbid="00000000-0000-0000-0000-000000000000" type="text/javascript"></script>
 
 
 </head>
@@ -54,84 +57,16 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.php" class="active">Accueil</a></li>
-            <li><a href="moncv.php">Mon CV </a></li>
-            <li><a href="posepanneaux.php">Energie solaire</a></li>
-            <li><a href="etancheite.php">Etancheité</a></li>
-            <li><a href="auditenergetique.php">Rénovation Electrique</a></li>
-            <li><a href="couverture.php">Couverture</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="moncv.html">Mon CV </a></li>
+            <li><a href="posepanneaux.html">Solaire</a></li>
+            <li><a href="gestionoffshore.html">Conseil</a></li>
+            <li><a href="auditenergetique.html">Electricite</a></li>
+            <li><a href="couverture.html">Couverture</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
       </div>
     </header>
-
-    <main class="main">
-
-      <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-
-        <div class="info d-flex align-items-center">
-          <div class="container">
-            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-              <div class="col-lg-6 text-center">
-                <h2>Christian Duboc Services </h2>
-                <p>Que vous soyez professionnel ou particulier je vous propose mes services. J'interviens dans sur
-                  l'ensemble de vos travaux liées aux économie d'énergie ou à l'enveloppe de votre bati. le
-                  Qu'il s'agisse de locaux industriel ou résidentiels, je vous propose un ensemble de solutions.</p>
-                <a href="contact.html" class="btn-get-started">Contact</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-
-          <div class="carousel-item">
-            <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
-          </div>
-
-          <div class="carousel-item active">
-            <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
-          </div>
-
-          <div class="carousel-item">
-            <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
-          </div>
-
-          <div class="carousel-item">
-            <img src="assets/img/hero-carousel/hero-carousel-4.jpg" alt="">
-          </div>
-
-          <div class="carousel-item">
-            <img src="assets/img/hero-carousel/hero-carousel-5.jpg" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/hero-carousel/hero-carousel-6.jpg" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/hero-carousel/hero-carousel-7.jpg" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/hero-carousel/hero-carousel-8.jpg" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/hero-carousel/hero-carousel-9.jpg" alt="">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/hero-carousel/hero-carousel-10.jpg" alt="">
-          </div>
-
-          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-          </a>
-
-          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-          </a>
-
-        </div>
-
-      </section><!-- /Hero Section -->
