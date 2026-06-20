@@ -1,0 +1,17 @@
+{
+    "name": "utilisateur/cvcouvreur",
+    "autoload": {
+        "psr-4": {
+            "Utilisateur\\Cvcouvreur\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "christian89-alt",
+            "email": "c.duboc43@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.9"
+    }
+}
