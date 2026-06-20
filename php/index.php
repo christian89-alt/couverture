@@ -1,4 +1,9 @@
-<?php require 'header.php'; ?>
+
+<?php 
+require 'layout/ header.php';
+Require 'vendor/autoload.php'
+
+?>
 
 
 <!-- Get Started Section -->
