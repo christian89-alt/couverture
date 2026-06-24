@@ -1,11 +1,8 @@
-
 <?php 
-require 'layout/ header.php';
+
 Require 'vendor/autoload.php'
+
+{ % extends layout.twig  %}
 
 ?>
 
-
-
-
-<?php require 'footer.php'; ?>
