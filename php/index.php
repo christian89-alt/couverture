@@ -2,7 +2,7 @@
 
 Require 'vendor/autoload.php'
 
-{ % extends layout.twig  %}
+{% extends layout.twig  %}
 
 ?>
 
