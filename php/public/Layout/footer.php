@@ -23,12 +23,14 @@
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Liens utiles</h4>
             <ul>
-              <li><a href="index.php" class="active">Accueil</a></li>
-              <li><a href="moncv.php">Mon CV </a></li>
-              <li><a href="posepanneaux.php">Energie solaire</a></li>
-              <li><a href="etancheite.php">Etancheité</a></li>
-              <li><a href="auditenergetique.php">Rénovation Electrique</a></li>
-              <li><a href="contact.php">Contact</a></li>
+              <li><a href="index.html" class="active">Accueil</a></li>
+              <li><a href="moncv.html">Mon CV </a></li>
+              <li><a href="posepanneaux.html">Solaire</a></li>
+              <li><a href="gestionoffshore.html">Conseil</a></li>
+              <li><a href="renovation.html">Rénovation</a></li>
+              <li><a href="pisciniste.html">Piscine</a></li>
+              <li><a href="placo.html">Intérieur</a></li>
+              <li><a href="contact.html">Contact</a></li>
 
             </ul>
           </div>
