@@ -24,14 +24,14 @@
             <h4>Liens utiles</h4>
             <ul>
               <li><a href="index.html" class="active">Accueil</a></li>
-             <li><a href="index.html" class="active">Accueil</a></li>
-            <li><a href="moncv.html">Mon CV </a></li>
-            <li><a href="panneauxsolaire.html">Solaire</a></li>
-            <li><a href="conseiloffshore.html">Conseil</a></li>
-            <li><a href="renovation.html">Rénovation</a></li>
-            <li><a href="pisciniste.html">Piscine</a></li>
-            <li><a href="placo.html">Intérieur</a></li>
-            <li><a href="contact.html">Contact</a></li>
+              <li><a href="index.html" class="active">Accueil</a></li>
+              <li><a href="moncv.html">Mon CV </a></li>
+              <li><a href="panneauxsolaire.html">Solaire</a></li>
+              <li><a href="conseiloffshore.html">Conseil</a></li>
+              <li><a href="renovation.html">Rénovation</a></li>
+              <li><a href="pisciniste.html">Piscine</a></li>
+              <li><a href="placo.html">Intérieur</a></li>
+              <li><a href="contact.html">Contact</a></li>
 
             </ul>
           </div>
@@ -39,7 +39,22 @@
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Mes services</h4>
             <ul>
-              <li><a href="servicepro.php">Pour les professionnels</a></li>
+              <li><a href="index.html" class="active">Accueil</a></li>
+              <li><a href="moncv.html">Mon CV </a></li>
+              <li><a href="panneauxsolaire.html">Solaire</a></li>
+              <li><a href="conseiloffshore.html">Conseil</a></li>
+              <li><a href="renovation.html">Rénovation</a></li>
+              <li><a href="pisciniste.html">Piscine</a></li>
+              <li><a href="placo.html">Intérieur</a></li>
+
+
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Offre spéciale</h4>
+            <ul>
+              <li><a href="servicepro.html">Pour les professionnels</a></li>
 
 
             </ul>
@@ -48,10 +63,12 @@
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Quelques liens utiles</h4>
             <ul>
-              <li><a href="#">MaPrime Rénove</a></li>
-              <li><a href="#">Anah</a></li>
-              <li><a href="termetcondition.php">Termes et conditions</a></li>
-              <li><a href="policyprivacy.phpl">Respect de la vie privée </a></li>
+              <li><a href="https://www.maprimerenov.gouv.fr/prweb/PRAuth/app/AIDES/BPNVwCpLW8TKW49zoQZpAw*/!STANDARD">MaPrime Rénove</a></li>
+              <li><a href="https://www.anah.gouv.fr/">Anah</a></li>
+              <li><a href="contact.html">Nous contacter</a></li>
+              <li><a href="termetcondition.html">Termes et conditions</a></li>
+              <li><a href="policyprivacy.html">Respect de la vie privée </a></li>
+              <li><a href="sitemap.html">Naviguez</a></li>
 
             </ul>
           </div>
